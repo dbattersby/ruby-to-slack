@@ -21,7 +21,7 @@ SLACK_EMOJI: 'technologist'
 Require the slack_message file from wherever you are trigger the slack notification. In this example, I'll add it to the User model:
 ```
 class User < ActiveRecord::Base
-	require "slack_message"
+  require "slack_message"
 end
 ```
 
